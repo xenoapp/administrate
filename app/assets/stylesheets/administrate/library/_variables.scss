@@ -12,7 +12,7 @@ $base-line-height: 1.5 !default;
 $heading-line-height: 1.2 !default;
 
 // Other Sizes
-$base-border-radius: 4px !default;
+$base-border-radius: 6px !default;
 $base-spacing: $base-line-height * 1em !default;
 $small-spacing: $base-spacing / 2 !default;
 
@@ -20,8 +20,8 @@ $small-spacing: $base-spacing / 2 !default;
 $white: #fff !default;
 $black: #000 !default;
 
-$blue: #1976d2 !default;
-$red: #d32f2f !default;
+$blue: #314550 !default;
+$red: #ff3c3c !default;
 $light-yellow: #fff6bf !default;
 $light-red: #fbe3e4 !default;
 $light-green: #e6efc2 !default;
@@ -29,11 +29,11 @@ $light-blue: #e5edf8 !default;
 
 $grey-0: #f6f7f7 !default;
 $grey-1: #dfe0e1 !default;
-$grey-2: #cfd8dc !default;
+$grey-2: #d8dcdf !default;
 $grey-5: #adb5bd !default;
 $grey-7: #293f54 !default;
 
-$hint-grey: #7b808c !default;
+$hint-grey: #9d9fa3 !default;
 
 // Font Colors
 $base-font-color: $grey-7 !default;
