@@ -1,5 +1,5 @@
 body {
-  color: $base-font-color;
+  color: #d8dcdf;
   font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
@@ -22,12 +22,12 @@ p {
 }
 
 a {
-  color: $action-color;
+  color: #d8dcdf;
   text-decoration-skip-ink: auto;
   transition: color $base-duration $base-timing;
 
   &:hover {
-    color: mix($black, $action-color, 25%);
+    color: #27c469;
   }
 
   &:focus {
