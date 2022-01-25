@@ -19,6 +19,8 @@ tr {
 }
 
 tbody tr {
+  cursor: pointer;
+  
   &:hover {
     background-color: #292a2b;
   }
