@@ -48,12 +48,13 @@ textarea {
 input:not([type]),
 textarea {
   appearance: none;
-  background-color: $white;
-  border: $base-border;
+  background: #292a2b;
+  border: none;
   border-radius: $base-border-radius;
   padding: 0.5em;
   transition: border-color $base-duration $base-timing;
   width: 100%;
+  color: #fff;
 
   &:hover {
     border-color: mix($black, $base-border-color, 20%);
@@ -103,5 +104,23 @@ select {
   &:focus {
     outline: $focus-outline;
     outline-offset: $focus-outline-offset;
+  }
+}
+
+body {
+  .selectize-input {
+    background: #292a2b;
+  }
+  
+  .selectize-dropdown, .selectize-input, .selectize-control.single .selectize-input.input-active, .selectize-dropdown, .selectize-input, .selectize-input input {
+    background: #292a2b;
+    border: none;
+    color: #fff;
+  }
+  
+  .selectize-control.multi .selectize-input > div {
+    background-color: #35363a;
+    color: #fff;
+    border: none;
   }
 }
